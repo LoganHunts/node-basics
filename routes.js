@@ -15,7 +15,7 @@ const reqHandler = ( request, response ) => {
         case '/users':
             response.write( '<head><title>Users</title></head>' );
             response.write( '<body><p>Welcome to All Users</p>' );
-            response.write( '<ul><li>User 1</li><li>User 2</li></ul>' );
+            response.write( '<ul><li>User 1</li><li>User 2</li><li>User 2</li><li>User 2</li><li>User 2</li></ul>' );
             response.write( '<a href="/create-user">Create User </p></a></body>' );
             break;
 
